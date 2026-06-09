@@ -1,16 +1,66 @@
-# React + Vite
+# 💸 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and minimal **Expense Tracker Web Application** built using **React.js** and **Vite**.  
+It helps users track daily expenses, analyze spending patterns, and manage finances efficiently with a clean UI and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔐 Login & Session Handling (Local Storage)
+- 📊 Dashboard with Expense Analytics
+- ➕ Add New Expenses
+- 🔍 Search & Filter Expenses
+- 🗑️ Delete Expense Records
+- 👤 User Profile Page
+- 📱 Fully Responsive UI
+- 💾 Persistent Data using Local Storage
+- ⚡ Fast Performance with React Optimization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚛️ React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `useState` → State management
+- `useEffect` → Data persistence & lifecycle handling
+- `useRef` → Form input focus control
+- `useMemo` → Optimized calculations (totals, filters)
+- `useCallback` → Optimized event handlers
+- `React Router DOM` → Page navigation
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- React Router DOM
+- React Icons
+- CSS3
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── auth/
+│   ├── expenses/
+│   ├── layout/
+│   └── profile/
+│
+├── pages/
+│   ├── Login.jsx
+│   ├── Dashboard.jsx
+│   ├── Expenses.jsx
+│   └── Profile.jsx
+│
+├── utils/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
