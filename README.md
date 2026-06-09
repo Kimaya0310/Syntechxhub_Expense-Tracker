@@ -51,7 +51,6 @@ src/
 │   ├── auth/
 │   ├── expenses/
 │   ├── layout/
-│   └── profile/
 │
 ├── pages/
 │   ├── Login.jsx
